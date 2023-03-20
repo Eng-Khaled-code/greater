@@ -1,0 +1,37 @@
+name: final_greaters
+description: Applicationfor browsing hundred islamic greaters by gehad rihany
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.4
+  get_storage: ^2.1.1
+  fluttertoast: ^8.2.1
+  url_launcher: ^6.1.10
+  assets_audio_player: ^3.0.6
+  google_mobile_ads: ^2.3.0
+  syncfusion_flutter_pdfviewer: ^20.4.54
+  font_awesome_flutter: ^10.4.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+     - assets/images/
+     - assets/files/
+     - assets/music/
+  
+  fonts:
+    - family: fav
+      fonts:
+        - asset: assets/fonts/fav.ttf
